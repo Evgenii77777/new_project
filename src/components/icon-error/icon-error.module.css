@@ -1,0 +1,16 @@
+.icon > svg {
+    width: 70px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.imgError {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 0 auto;
+}
+
+.iconErrorCalendar > svg {
+    width: 24px;
+    height: 24px;
+}

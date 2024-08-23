@@ -1,0 +1,16 @@
+export const messageSelector = (state) => state.login.message;
+export const isErrorSelector = (state) => state.login.error;
+export const statusSelector = (state) => state.login.status;
+export const typeSelector = (state) => state.login.type;
+export const userSelector = (state) => state.login.user;
+export const emailSelector = (state) => state.login.email;
+export const authLoadinglSelector = (state) => state.login.loading;
+export const feedLoadinglSelector = (state) => state.feedbacks.loading;
+export const feedbacksSelector = (state) => state.feedbacks.feedbacks;
+export const feedbacksErrorSelector = (state) => state.feedbacks.error;
+export const feedbacksTypeSelector = (state) => state.feedbacks.type;
+export const feedbacksMessageSelector = (state) => state.feedbacks.message;
+export const trainingErrorSelector = (state) => state.training.error;
+export const trainingErrorMessageSelector = (state) => state.training.message;
+export const trainingListTypeSelector = (state) => state.training.type;
+export const trainingListSelector = (state) => state.training.trainingData;

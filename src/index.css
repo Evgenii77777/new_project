@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;900&display=swap');
+
+#root {
+    width: 100%;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.3;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ant-layout {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: inherit;
+}
+
+body {
+    min-height: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar-track {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    border-radius: 2px;
+    background: rgb(47, 84, 235);
+}
+
+.ant-list-item-meta-avatar {
+    margin-right: 0;
+}
+
+.ant-picker-calendar-header,
+.ant-picker-calendar-full .ant-picker-panel {
+    background: rgb(240, 245, 255);
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date {
+    background-color: #fff;
+}
+
+.ant-picker-content th {
+    font-size: 14px;
+    color: rgb(140, 140, 140);
+}
+
+.ant-btn > span {
+    display: flex;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+    z-index: 100;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: none;
+}
+
+.ant-drawer-mask {
+    display: none;
+}
+
+.ant-drawer-header-title {
+    flex-direction: row-reverse;
+}
+
+.ant-drawer-close {
+    margin-right: 0;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #fff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+.trigger {
+    position: absolute;
+    top: 50%;
+    right: -21px;
+    width: 20px;
+    height: 66px;
+    color: rgb(140, 140, 140);
+    background-color: #fff;
+    transform: perspective(10px) rotateY(10deg);
+    box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 0;
+    border: none;
+}
+
+.ant-menu-inline-collapsed .anticon {
+    display: flex;
+}
+
+.ant-list [class^='ant-list'] {
+    border-block-end: none;
+}
+
+.ant-list .ant-list-header {
+    padding-block: 0;
+}
+
+.ant-card .ant-card-head {
+    padding: 0 35px;
+    font-size: 16px;
+}
+
+.ant-card {
+    border-radius: 0;
+}
+
+.ant-card .ant-card-body {
+    padding: 12px 24px;
+}
+
+.ant-card .ant-card-actions > li:not(:last-child) {
+    border-inline-end: none;
+}
+
+.ant-card .ant-card-meta-title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: rgb(47, 84, 235);
+}
+
+.ant-card-meta-description {
+    color: rgb(140, 140, 140);
+}
+
+.ant-btn-text:not(:disabled):not(.ant-btn-disabled):hover,
+.ant-btn-text:not(:disabled):not(.ant-btn-disabled):focus,
+.ant-btn-text:not(:disabled):not(.ant-btn-disabled):hover,
+.ant-btn-text:not(:disabled):not(.ant-btn-disabled):focus,
+.ant-btn:hover,
+.ant-btn:focus {
+    border: none;
+}
+
+.ant-btn-primary,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    padding: 10px 16px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+    border: none;
+    color: rgb(255, 255, 255);
+    background: rgb(47, 84, 235);
+}
+
+.ant-btn.ant-btn-icon-only {
+    width: 20px;
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+    color: rgb(140, 140, 140);
+}
+
+.ant-layout .ant-layout-sider {
+    box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ant-layout-header {
+    height: auto;
+    padding: 16px 24px;
+    background: rgb(240, 245, 255);
+}
+
+.ant-form-item-feedback-icon {
+    display: none;
+}
+
+.ant-input-prefix > *:not(:last-child),
+.ant-input-suffix > *:not(:last-child) {
+    margin: 0;
+}
+
+.ant-form-item-with-help .ant-form-item-explain {
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 1.3;
+    color: rgb(140, 140, 140);
+}
+
+.ant-form-item {
+    margin-bottom: 32px;
+}
+
+.ant-input-group-addon,
+.ant-input-group-wrapper-status-error .ant-input-group-addon {
+    color: rgb(38, 38, 38);
+    line-height: 1.3;
+    border-right: 1px solid rgb(217, 217, 217);
+}
+.ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+.ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover {
+    border-left: 1px solid rgb(217, 217, 217);
+}
+
+.ant-list-item-meta-content {
+    width: auto;
+}
+
+.ant-modal-body {
+    padding: 0;
+}
+
+.ant-list-item-meta-title {
+    width: min-content;
+}
+
+.ant-modal-mask {
+    backdrop-filter: blur(2px);
+    background: rgba(121, 156, 213, 0.5);
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+    .ant-row {
+        flex-flow: nowrap;
+    }
+
+    .ant-card .ant-card-head-title {
+        white-space: normal;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767.99px) {
+    .ant-row {
+        display: block;
+    }
+
+    .ant-col {
+        margin-bottom: 8px;
+    }
+
+    .ant-card-meta-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ant-btn:not(.ant-btn-icon-only) > .ant-btn-icon:not(:last-child) {
+        margin-inline-end: 0;
+    }
+
+    h5.ant-typography {
+        margin-bottom: 24px;
+    }
+
+    .trigger {
+        width: 32px;
+        height: 48px;
+        top: 24px;
+    }
+
+    .trigger > svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .ant-layout .ant-layout-sider {
+        z-index: 1;
+        height: 100vh;
+        position: absolute;
+        box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .ant-modal {
+        padding: 0 20px;
+    }
+
+    .ant-modal-content {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+}

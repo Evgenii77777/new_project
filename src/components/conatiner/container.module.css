@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    place-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.containerMain {
+    height: auto;
+}

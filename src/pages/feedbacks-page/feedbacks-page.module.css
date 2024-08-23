@@ -1,0 +1,76 @@
+.wrapper {
+    padding: 132px 24px 0;
+}
+
+.btnModal,
+.btnModal:hover,
+.btnModal:focus,
+.btnOpenModal {
+    margin-right: 8px;
+    height: auto;
+}
+
+.btnOpenModal {
+    margin: 20px auto 0;
+}
+
+.btnLink,
+.btnLink:hover,
+.btnLink:focus {
+    height: auto;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(47, 84, 235);
+    border: none;
+}
+
+.wrapEmpty {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    padding: 0 24px;
+}
+
+.boxEmpty {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    padding: 56px 130px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+h4.title {
+    margin-bottom: 48px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: rgb(6, 17, 120);
+}
+
+span.text {
+    display: block;
+    margin: 0 auto;
+    max-width: 520px;
+    font-size: 14px;
+    line-height: 1.3;
+    color: rgb(140, 140, 140);
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 48px 32px;
+    }
+
+    .btnOpenModal {
+        width: 100%;
+    }
+}

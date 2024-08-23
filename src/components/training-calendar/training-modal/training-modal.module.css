@@ -1,0 +1,100 @@
+.modal {
+    width: 275px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background: #fff;
+    box-shadow: 4px 2px 8px 2px rgba(0, 0, 0, 0.15);
+}
+
+.rigthModal {
+    right: 0;
+    left: auto;
+}
+
+.box {
+    padding: 16px 12px 0;
+}
+
+.wrapp {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.btnClose,
+.btnBack {
+    width: 20px;
+    height: 20px;
+    padding: 0 4px;
+    margin-left: 38px;
+    border: none;
+}
+
+.btnBack {
+    margin-left: 0;
+}
+
+.emptyImg {
+    display: block;
+    margin: 16px auto;
+}
+
+h3.title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(38, 38, 38);
+}
+
+div.text {
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(140, 140, 140);
+}
+
+.btnBox {
+    padding: 12px;
+    border-top: 1px solid rgb(240, 240, 240);
+}
+
+.btnCreate,
+.btnAdd,
+.btnSave {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.btnAdd {
+    margin-bottom: 8px;
+    padding: 6px 0;
+    color: rgb(38, 38, 38);
+}
+
+.btnSave {
+    padding: 6px 0;
+    color: rgb(47, 84, 235);
+}
+
+.select {
+    width: 100%;
+}
+
+.itemApproach,
+.itemBadge {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnEdit {
+    padding: 0;
+    border: none;
+}

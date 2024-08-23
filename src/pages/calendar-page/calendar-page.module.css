@@ -1,0 +1,8 @@
+.wrapper {
+    padding: 0 24px 92px;
+    background: rgb(240, 245, 255);
+}
+
+.containerCalendar {
+    position: relative;
+}

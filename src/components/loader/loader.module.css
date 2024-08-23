@@ -1,0 +1,24 @@
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    backdrop-filter: blur(12px);
+}
+
+.wrapper {
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    filter: blur(12px);
+}

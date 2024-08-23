@@ -1,0 +1,98 @@
+.drawer {
+    position: absolute;
+    top: -55px;
+    width: 100%;
+    height: 100vh;
+}
+
+h3.title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(140, 140, 140);
+    text-align: end;
+}
+
+.box {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list,
+.listNewTraining,
+.inputFirst {
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+}
+
+.listNewTraining > div,
+.inputFirst > div {
+    padding: 0;
+    flex-direction: column;
+}
+
+.listNewTraining > div > div > label,
+.inputFirst > div > div > label {
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(38, 38, 38);
+    border-bottom: 1px solid rgb(240, 240, 240);
+    background: rgb(240, 240, 240);
+}
+
+.listNewTraining > div > div > label::after,
+.inputFirst > div > div > label::after {
+    content: '';
+}
+
+.inputFirst {
+    margin: 0 32px 0 0;
+}
+
+.itemSecond {
+    margin-left: 32px;
+}
+
+.itemTheerd {
+    align-items: flex-end;
+    padding-bottom: 32px;
+    color: rgb(191, 191, 191);
+}
+
+.textTheerd {
+    margin: 0 2px;
+    color: rgb(191, 191, 191);
+}
+
+.addBtn {
+    width: 100%;
+    padding: 4px 12px;
+    font-size: 14px;
+    color: rgb(47, 84, 235);
+    background: rgb(240, 240, 240);
+}
+
+input::placeholder {
+    color: rgb(191, 191, 191);
+}
+
+.closeBtn {
+    border: none;
+}
+
+.wrapper > div {
+    margin-bottom: 8px;
+}
+
+.operand {
+    margin: 0 2px;
+    padding-bottom: 6px;
+    display: flex;
+    align-items: end;
+    color: rgb(191, 191, 191);
+}
